@@ -1,20 +1,16 @@
 {
-  "name": "resume_challenge",
+  "name": "prime_solo_express",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gill28/Resume-Challenge.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gill28/Resume-Challenge/issues"
-  },
-  "homepage": "https://github.com/gill28/Resume-Challenge#readme"
+  "dependencies": {
+    "express": "^4.13.3",
+    "jquery": "^2.1.4"
+  }
 }
